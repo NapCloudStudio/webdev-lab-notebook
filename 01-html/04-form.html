@@ -10,6 +10,42 @@
     <main>
       <form action="/submit">
         <!-- Add your code here -->
+        <legend><h1>Form</h1></legend>
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="Name" />
+        <br />
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" />
+        <br />
+
+        <fieldset>
+          <legend>Who is your favorite Character?</legend>
+          <input
+            type="radio"
+            id="Spongebob"
+            name="Character"
+            value="Spongebob"
+          />
+          <label for="Spongebob">Spongebob</label>
+          <br />
+          <input type="radio" id="Sandy" name="Character" value="Sandy" />
+          <label for="Sandy">Sandy</label>
+          <br />
+          <input type="radio" id="Patrick" name="Character" value="Patrick" />
+          <label for="Patrick">Patrick</label>
+          <br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Is this your favorite show?</legend>
+          <input type="radio" id="Yes" name="Show" value="Yes" />
+          <label for="Yes">Yes</label>
+          <br />
+          <input type="radio" id="No" name="Show" value="No" />
+          <label for="No">No</label>
+        </fieldset>
+        <input type="submit" name="submit" value="Submit" />
+        <input type="reset" name="reset" value="Reset" />
       </form>
     </main>
   </body>
