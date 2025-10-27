@@ -9,6 +9,52 @@
 }
 
 /* Use attribute selectors for the first part of the exercise */
+/*For some reason it wasn't working with id selectors and was staying red.
+I had to switch them to classes to change color*/
+#dog {
+  color: var(--magenta);
+}
+/*
+.dog {
+  color: var(--teal);
+}
+*/
+
+#cat {
+  color: var(--teal);
+}
+/*
+.parrot {
+  color: var(--violet);
+}
+*/
+
+#parrot {
+  color: var(--green);
+}
+
+#donkey {
+  color: var(--royalblue);
+}
+/*
+.donkey {
+  color: var(--green);
+}
+*/
+
+#hedgehog {
+  color: var(--violet);
+}
+/*
+.hedgehog {
+  color: var(--magenta);
+}
+*/
+/*
+#cat_dog_parrot {
+  color: var(--royalblue);
+}
+*/
 
 li[class] {
   color: var(--red);
@@ -18,4 +64,12 @@ li[class] {
 
 section li {
   color: var(--green);
+}
+
+ol li {
+  color: var(--green);
+}
+
+li > li {
+  color: var(--violet);
 }
